@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.big-container {
+  background-image: url("images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.content{
+  padding-top: 3rem;
+}
+.heading {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.767);
+  max-width: 40%;
+  min-height: 8rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  border: .2rem solid gray;
+  
+}
+.heading h1{
+    padding-bottom: 1rem;
+    font-size: 5rem;
+    font-family: 'EB Garamond', serif;
+}
+.span-one{
+  color: purple;
+  font-family: 'EB Garamond', serif;
+
+}
+.msg{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .7rem black;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 2rem;
+  border: .2rem solid white;
+  width: 25%;
+  margin: 3rem auto;
+  background-color: rgb(164, 72, 164);
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+}
+.input i{
+  font-size: 3rem;
+}
+
+.input i:active{
+  transform: scale(0.87);
+}
+.date .setting{
+  font-size: 5rem;
+  color: white;
+  /* margin: 3rem auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  transition: .2s ease-in-out;
+
+}
+.date .setting:active{
+  transform: scale(0.8);
+  transition: .1s ease-in-out;
+}
+.hide{
+  display: none;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.life-counter{
+  text-align: center;
+}
+.life-counter h1{
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  color: rgb(23, 198, 0) ;
+}
+
+.life-counter .details h2{
+  font-size: 2rem; 
+  color: black;
+
+}
+.life-counter .details div{
+  font-size: 4rem;
+   color: white;
+
+}
+.blank{
+  font-size: 3rem;;
+  padding-top: 5rem;
+  color: rgb(255, 0, 0);
+  padding-left: 53rem;
+}
