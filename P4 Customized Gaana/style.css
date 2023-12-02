@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carrois+Gothic&family=EB+Garamond:wght@600&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carrois+Gothic&family=EB+Garamond:wght@600&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.mobile-container{
+    width: 23%;
+    height: 95vh; 
+    background-color: black;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: .3rem solid rgb(190, 190, 190);
+    overflow: hidden;
+    box-shadow: .1rem .2rem 2rem 0 black;
+}
+.upper-part-img img{
+    width: 100%;
+}
+.arijit-text{
+    color: white;
+    position: absolute;
+    bottom: 38rem;
+    left: 58.7rem;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+.arijit-text h2{
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem 1rem black;
+}
+.arijit-text p{
+    margin-top: 0.5rem;    
+}
+.upper-part-img-icon{
+    color: white;
+    position: absolute;
+    bottom: 34rem;
+    left: 56.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper-part-img-icon button{
+    margin: 0 1.2rem;
+    padding: 0.7rem 1.58rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    background-color: #E41364;
+    background-image: linear-gradient(to top,#aa0242,#E41364);
+    border: none;
+    color: white;
+}
+.upper-part-img-icon button:active{
+    background-image: linear-gradient(to top,#E41364,#aa0242);
+}
+.upper-part-img-icon i{
+    font-size: 1.6rem;
+}
+.middle-part i{
+    margin: 0 0.7rem;
+}
+.middle-part{
+    position: absolute;
+    bottom: 28.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2.3rem;
+}
+.middle-part-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.red_button{
+    color: #fa3681;
+    font-size: 3rem;
+}
+.middle-part input{
+    width: 26rem;
+    cursor: pointer;
+}
+.container{
+    margin: 0 1rem;
+}
+.lower-part{
+    margin-top: 6rem;
+}
+.lower-part-heading{
+    color: rgba(255, 255, 255, 0.854);
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 1.2rem;
+}
+.song-item{
+    height: 4rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+.song-item-banner img{
+    width: 4rem;
+    border-radius: .4rem;
+}
+.song-item-banner{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.song-item-details h4{
+    font-size: .7rem;
+    color: rgb(172, 172, 172);
+}
+.song-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+.song-item-icon i{
+    font-size: 1.5rem;
+    margin: 0 .3rem;
+}
+.song-item-track img{
+    width: 3rem;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+input[type=range]{
+    accent-color:#E41364;
+}
+.play_btn{
+    cursor: pointer;
+}
+
+.previous:active,.next:active{
+    color: #fa3681;
+}
