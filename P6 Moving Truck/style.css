@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow: hidden;
+    position: relative;
+}
+.background{
+    background-image: url("images/background.jpg");
+    height: 100vh;
+    width: 150vw;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    animation: going linear 2s infinite;
+}
+.road{
+    background-image: url("images/road.jpeg");
+    height: 100vh;
+    width: 800vw;
+    background-repeat:repeat-x;
+    position: absolute;
+    top: 45rem;
+    animation: going linear .9s infinite;
+
+}
+.truck{
+    background-image: url("images/1703005555762.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100rem;
+    top: 18rem;
+    left: 12rem;
+    animation: shake linear .4s infinite;
+}
+.tyre{
+    position: relative;
+}
+.tyre1{
+    top: -14rem;
+    left: 35rem;
+}
+.tyre2{
+    top: -25rem;
+    left: 4rem;
+}
+.tyre1 img{
+    width: 12rem;
+    animation: wheelrotate linear .4s infinite;
+}
+.tyre2 img{
+    width: 12rem;
+    animation: wheelrotate linear .4s infinite;
+}
+@keyframes wheelrotate
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes going
+{
+    100%{
+        transform: translateX(-50vw);
+    }
+}
+@keyframes shake
+{
+    0%{
+        transform: translateY(-0.91rem);
+    }   
+    50%{
+        transform: translateY(1rem);
+    }   
+    100%{
+        transform: translateY(-1rem);
+    }   
+}
