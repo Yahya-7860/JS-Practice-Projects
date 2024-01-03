@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dc54593ae1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="big_container">
+      <div class="container">
+        <div class="mobile_size">
+          <div class="upper">
+            <div class="header">
+              <div class="date">Jan 3, 2024</div>
+              <div class="side_bar">
+                <i class="fa-solid fa-lines-leaning"></i>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="second_part">
+              <div class="heading">
+                <h1>Currency Converter</h1>
+              </div>
+              <form>
+                <input class="from" type="text" placeholder="Enter Amount" />
+                <img class="flag" src="https://flagsapi.com/US/flat/64.png">
+
+                <select id="dropdown">
+                  <option class="select-items" value="">USD</option>
+                  <option class="select-items" value="">INR</option>
+                </select>
+              </form>
+            </div>
+          </div>
+
+          <div class="lower">
+            <form>
+              <input class="to" type="text" placeholder="Converted Amount" />
+              <img class="flag" src="https://flagsapi.com/IN/flat/64.png">
+
+              <select id="dropdown2">
+                <option selected class="select-items" value="">INR</option>
+                <option class="select-items" value="">USD</option>
+              </select>
+            </form>
+          </div>
+          <div class="converter">
+              <i class="fa-solid conv fa-arrow-right-arrow-left"></i>
+            </div>
+            <p class="inform">1 USD = 80 INR</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

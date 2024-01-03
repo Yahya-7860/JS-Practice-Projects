@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carrois+Gothic&family=Dosis:wght@300&family=EB+Garamond:wght@600&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+.big_container{
+    background-image: linear-gradient(to left top,rgb(255, 83, 57),rgb(110, 110, 255));
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mobile_size{
+    width: 30rem;
+    height: 48rem;
+    border-radius: 1rem;
+    box-shadow: .5rem 0.3rem 3rem -1rem rgb(54, 54, 54);
+}
+.upper,.lower{
+    width: 100%;
+    height: 50%;
+    border-radius: 1rem 1rem 0 0;
+
+}
+.upper{
+    background-image: linear-gradient(to right top,rgba(255, 255, 255, 0.365),rgb(255, 83, 57),rgb(255, 74, 47));
+}
+.lower{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 1rem 1rem ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.side_bar{
+    font-size: 2rem;
+}
+.second_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+.line{
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.637);
+    width: 100%;
+}
+input[type="text"]{
+    border: none;
+    background-color: transparent;
+    border-bottom: .2rem solid white;
+    width: 50%;
+    font-size: 2.7rem;
+    color: white;
+    outline: none;
+}
+input[type="text"]::placeholder{
+    color: rgba(255, 255, 255, 0.452);
+    font-size: 2.3rem;
+}
+#dropdown{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.196);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+}
+#dropdown:hover{
+    background-color: rgba(185, 185, 185, 0.196);
+}
+#dropdown:active{
+    background-color: rgba(185, 185, 185, 0.521);
+}
+.select-items{
+    color: black;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.196);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.lower {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+input[placeholder="Converted Amount"]::placeholder{
+    color: rgb(255, 83, 57);
+    font-size: 1.8rem;
+}
+input[placeholder="Converted Amount"]{
+    border-bottom: .2rem solid rgb(255, 83, 57);
+    color:rgb(255, 83, 57) ;
+}
+#dropdown2{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.196);
+    color: rgb(255, 83, 57);
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+}
+.converter{
+    position: relative;
+    background-color: white;
+    padding: .7rem;
+    border-radius: .3rem;
+    transform: rotate(90deg);
+    width: 3.5rem;
+    bottom: 26rem;
+    left: 25rem;
+    color: rgb(255, 83, 57);
+    font-size: 2rem;
+    box-shadow: 0.3rem 0.2rem 1rem 0rem rgba(0, 0, 0, 0.276);
+    cursor: pointer;
+}
+.converter:hover{
+    background-color: rgb(229, 229, 229);
+}
+.converter:active{
+    color: white;
+    background-color: rgb(255, 83, 57);
+
+}
+.flag{
+    width: 3rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.inform{
+    color: rgb(255, 83, 57);
+    font-size: 2rem;
+    position: relative;
+    bottom: 27rem;
+    left: 6rem;
+    font-weight: 800;
+    opacity: 0;
+}
